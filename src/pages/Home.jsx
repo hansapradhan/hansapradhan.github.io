@@ -2,7 +2,7 @@
 // import './Home.css';
 // import devGirl from '../assets/illustrations/dev-girl.png'; // Add an illustration you like here
 // import { DotLottieReact } from '@lottiefiles/dotlottie-react'
-import devGirl from "./devGirl.json"
+import devGirl from "../assets/illustrations/devGirl.json"
 import '../assets/css/Home.css';
 import Lottie from 'lottie-react';
 function Home() {

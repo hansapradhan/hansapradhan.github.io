@@ -1,0 +1,112 @@
+.education-section {
+    background-color: #fef7ff;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .section-header {
+    font-size: 2.2rem;
+    color: #c185d6;
+    margin-bottom: 2rem;
+    animation: shimmerText 4s infinite;
+  }
+  
+  .education-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .lottie-wrapper {
+    flex: 1;
+    max-width: 300px;
+    min-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .cards-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .edu-card {
+    background: linear-gradient(to right, #fbeaff, #ffffff);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 16px rgba(202, 135, 232, 0.15);
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .edu-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(202, 135, 232, 0.3);
+  }
+  
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  
+  .edu-header h3 {
+    font-size: 1.3rem;
+    color: #8336a3;
+    margin: 0;
+  }
+  
+  .badge {
+    background: linear-gradient(to right, gold, silver);
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(218, 165, 32, 0.2);
+  }
+  
+  .edu-duration {
+    font-size: 0.9rem;
+    color: #9c7db5;
+    margin: 0.5rem 0 1rem;
+  }
+  
+  .edu-card ul {
+    padding-left: 1.2rem;
+  }
+  
+  .edu-card li {
+    list-style: disc;
+    margin-bottom: 0.4rem;
+    color: #4a4a4a;
+    font-size: 0.95rem;
+  }
+  
+  @keyframes shimmerText {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.75; }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .education-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cards-wrapper {
+      width: 100%;
+    }
+  }
+  
+  .edu-location {
+    font-size: 0.85rem;
+    color: #7a5c99;
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
