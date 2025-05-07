@@ -1,32 +1,27 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-// import WorkExperience from './pages/WorkExperience';
-// import Education from './pages/Education';
-// import Skills from './pages/Skills';
-// import Certificates from './pages/Certificates';
-// import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WorkExperience from './pages/WorkExperience';
+import Home from './pages/Home';
+// // import Education from './pages/Education';
+// // import Skills from './pages/Skills';
+// // import Certificates from './pages/Certificates';
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/work" element={<WorkExperience />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/certificates" element={<Certificates />} />
-        <Route path="/contact" element={<Contact />} /> */}
-      </Routes>
+      <main>
+        <section id="home"><Home /></section>
+        <section id="work"><WorkExperience /></section>
+        {/* <section id="education"><Education /></section>
+        <section id="skills"><Skills /></section>
+        <section id="certificates"><Certificates /></section>
+        <section id="contact"><Contact /></section> */}
+      </main>
       <Footer />
-    </Router>
+    </div>
   );
 }
-
-
-
 
 export default App;
