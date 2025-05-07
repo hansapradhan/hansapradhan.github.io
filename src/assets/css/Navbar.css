@@ -1,0 +1,43 @@
+/* .navbar {
+    background-color: #fffafc;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(222, 190, 245, 0.3);
+    border-bottom: 2px solid transparent;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, gold, silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmerText 5s linear infinite;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    font-weight: 500;
+    color: #b480d1;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #dda0dd;
+    text-decoration: underline;
+  }
+  
+  @keyframes shimmerText {
+    0% { opacity: 1; }
+    50% { opacity: 0.85; }
+    100% { opacity: 1; }
+  }
+   */

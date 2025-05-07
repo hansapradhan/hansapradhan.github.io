@@ -1,0 +1,18 @@
+.footer {
+    background-color: #fffafc;
+    color: #b480d1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(90deg, gold, silver) 1;
+    animation: shimmerBorder 6s infinite linear;
+  }
+  
+  @keyframes shimmerBorder {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+  }
+  

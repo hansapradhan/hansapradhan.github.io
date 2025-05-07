@@ -1,0 +1,66 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fef6ff;
+    color: #8a4d76;
+  }
+  
+  .intro-card {
+    background-color: #fff0f5;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(255, 192, 203, 0.3);
+    animation: floatCard 6s ease-in-out infinite;
+  }
+  
+  .home-image {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-card h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, gold, silver);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .section-glow {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #ba7cc0;
+    animation: shimmerText 3s infinite;
+  }
+  
+  @keyframes floatCard {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  
+  @keyframes shimmerText {
+    0% { opacity: 1; }
+    50% { opacity: 0.75; }
+    100% { opacity: 1; }
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Adjust spacing as needed */
+  }
+  
+  .lottie-wrapper {
+    width: 400px; /* Adjust width */
+    height: 400px;
+  }
+  
+  .intro-text h1,
+  .intro-text p {
+    margin: 0.2rem 0;
+  }
+  
