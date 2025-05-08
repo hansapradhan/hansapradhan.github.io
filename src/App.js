@@ -4,6 +4,7 @@ import WorkExperience from './pages/WorkExperience';
 import Home from './pages/Home';
 import Education from './pages/Education';
 import Skills from './pages/Skills';
+import Projects from './pages/Projects';
 // // import Certificates from './pages/Certificates';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
         <section id="work"><WorkExperience /></section>
          <section id="education"><Education /></section>
         <section id="skills"><Skills /></section>
+        <section id="projects"><Projects /></section>
         {/*<section id="certificates"><Certificates /></section>
         <section id="contact"><Contact /></section> */}
       </main>
