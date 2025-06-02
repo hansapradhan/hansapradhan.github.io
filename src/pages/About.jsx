@@ -51,7 +51,9 @@ import { FaFileDownload } from 'react-icons/fa';
 
 function About() {
   return (
+    
     <section className="about-section" id="about">
+
       <h2 className="section-header">🌸 About Me</h2>
 
       <div className="about-wrapper">

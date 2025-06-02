@@ -100,3 +100,7 @@ a:hover {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
+main {
+  padding-top: 40px; /* Adjust based on your navbar height */
+}

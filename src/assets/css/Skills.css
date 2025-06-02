@@ -63,7 +63,8 @@
 
    .skills-section {
     background: radial-gradient(circle at top left, #fff0f5 20%, #fefaff 100%);
-    padding: 4rem 1rem;
+    padding-top: 75px; /* Adjust based on your navbar height */
+    /* padding: 4rem 1rem; */
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -220,4 +221,28 @@
     transform: translate(-50%, 0);
   }
 }
+
+.skills-flex-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skills-bubble-container {
+  flex: 2;
+}
+
+.skills-animation-wrapper.side {
+  flex: 1;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.skills-lottie {
+  width: 100%;
+  height: auto;
+}
+
 

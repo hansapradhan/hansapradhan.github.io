@@ -1,10 +1,27 @@
-/* .navbar {
-    background-color: #fffafc;
+.navbar {
+    /* background-color: #fffafc; */
     padding: 1rem 2rem;
     text-align: center;
     box-shadow: 0 2px 4px rgba(222, 190, 245, 0.3);
     border-bottom: 2px solid transparent;
   }
+
+  .navbar {
+    position: fixed; /* This keeps it fixed at the top */
+    top: 0;
+    left: 0;
+    width: 97%;
+    z-index: 999; /* Ensure it stays on top of other elements */
+    /*background-color: #fffdfd; /* Or any pastel/shimmer background */
+    box-shadow: 0 2px 8px rgba(200, 150, 255, 0.15); /* Soft shadow */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+  }
+
+  
   
   .logo {
     font-size: 2rem;
@@ -40,4 +57,4 @@
     50% { opacity: 0.85; }
     100% { opacity: 1; }
   }
-   */
+  

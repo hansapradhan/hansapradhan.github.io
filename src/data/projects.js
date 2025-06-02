@@ -48,7 +48,7 @@ const projects = [
       tech: ["Tableau"],
       github: "https://github.com/hansapradhan/NetflixDashboard",
       demo: "",
-      date: "2019",
+      date: "May 2023",
       institute: "SRM University"
     },
     {

@@ -75,6 +75,10 @@
   text-align: center;
 }
 
+.work-container{
+  padding-top: 80px; /* Adjust based on your navbar height */
+}
+
 .section-header {
   text-align: center;
   font-size: 2rem;

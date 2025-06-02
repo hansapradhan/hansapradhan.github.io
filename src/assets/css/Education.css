@@ -2,6 +2,7 @@
     background-color: #fef7ff;
     padding: 3rem 1rem;
     text-align: center;
+    padding-top: 80px; /* Adjust based on your navbar height */
   }
   
   .section-header {
