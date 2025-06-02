@@ -7,18 +7,18 @@ const educationData = [
     details: [
       "Focus on machine learning, AI, and software engineering",
       "Capstone: Real-time Surgical AI Dashboard",
-      "GPA: 3.6/4.0"
+      "Subjects: Intro to AI, Machine Learning, Information Visualization, Social Media Analytics, AI tools in Software Engineering, Cloud Computing, Ethics in AI"
     ]
   },
   {
     degree: "B.Tech in Computer Science",
     school: "SRM University",
-    duration: "2015 – 2019",
+    duration: "2016 – 2020",
     location: "Chennai, India",
     details: [
       "Graduated with Distinction",
-      "Projects: IoT automation, neural nets",
-      "GPA: 9.1/10"
+      "Capstone: HR Attrition Analytics",
+      "Subjects: Object Oriented Programming, java, C, C++, python, Cybersecurity, Theory of computation, Computer Networks,"
     ]
   }
 ];

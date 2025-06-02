@@ -19,15 +19,19 @@
   
   .home-image {
     width: 120px;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
   
   .intro-card h1 {
-    font-size: 2.2rem;
+    font-size: 4rem;
     margin-bottom: 0.5rem;
     background: linear-gradient(to right, gold, silver);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .intro-card p{
+    font-size: 1.2rem;
   }
   
   .section-glow {
@@ -56,7 +60,7 @@
   
   .lottie-wrapper {
     width: 400px; /* Adjust width */
-    height: 400px;
+    height: 250px;
   }
   
   .intro-text h1,

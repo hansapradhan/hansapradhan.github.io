@@ -1,41 +1,25 @@
 import '../assets/css/Contact.css';
+import Lottie from 'lottie-react';
+import contactAnimation from '../assets/illustrations/sendMessage.json';
+import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt, FaFileDownload } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <div className="contact-section">
-      <h2 className="section-header">💌 Get in Touch</h2>
-      <p className="contact-subtext">I'd love to connect with you!</p>
+    <div className="contact-hero-section">
+      <div className="contact-left">
+        <Lottie animationData={contactAnimation} loop={true} className="contact-lottie" />
+      </div>
 
-      <div className="contact-grid">
-        <div className="contact-card">
-          <h3>📧 Email</h3>
-          <p>yourname@email.com</p>
-        </div>
+      <div className="contact-right">
+       <h2 className="section-header">🌷 Let's Connect</h2>
+      <p className="contact-subtext">I'm always open to new opportunities and conversations!</p>
 
-        <div className="contact-card">
-          <h3>💼 LinkedIn</h3>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/yourprofile
-          </a>
-        </div>
-
-        <div className="contact-card">
-          <h3>🐙 GitHub</h3>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            github.com/yourusername
-          </a>
-        </div>
-
-        <div className="contact-card">
-          <h3>📍 Location</h3>
-          <p>Northern Virginia, USA</p>
-        </div>
-
-        <div className="contact-card">
-          <h3>📄 Resume</h3>
-          <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">
-            Download PDF
-          </a>
+        <div className="contact-info">  
+          <div><FaEnvelope className="icon" /> pradhan.hansa@email.com</div>
+          <div><FaLinkedin className="icon" /> <a href="https://linkedin.com/in/hansapradhan">linkedin.com/in/hansapradhan</a></div>
+          <div><FaGithub className="icon" /> <a href="https://github.com/hansapradhan">github.com/hansapradhan</a></div>
+          {/* <div><FaMapMarkerAlt className="icon" /> Northern Virginia, USA</div> */}
+          <div><FaFileDownload className="icon" /> <a href="https://drive.google.com/file/d/1ZGZidOevXjbu1NRBobFlJWzXqrzl52dY/view?usp=sharing"  target="_blank" rel="noopener noreferrer">Download Resume</a></div>
         </div>
       </div>
     </div>
