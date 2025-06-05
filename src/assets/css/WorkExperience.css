@@ -100,7 +100,8 @@
   max-width: 300px;
   min-width: 250px;
   margin:0 auto;
-  margin-left: 100px;
+  /* margin-left: 50px; */
+  margin-bottom: -100px;
 }
 
 .lottie {

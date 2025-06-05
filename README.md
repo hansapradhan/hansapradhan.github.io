@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+ To deploy the scripts to github pages use: npm run deploy
 ## Available Scripts
 
 In the project directory, you can run:

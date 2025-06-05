@@ -61,7 +61,7 @@ function About() {
           <h3 className="about-subheading">👩🏻‍💻 Who I Am</h3>
           <p>
             {/* I'm <strong>Hansa</strong>, a software engineer pivoting into Data Analytics and Machine Learning with a love for bold ideas and human-first design. With 3+ years of experience at <strong>Infosys</strong> and a Master’s degree in Computer Science from <strong>Virginia Tech</strong>, I thrive where creativity meets systems thinking. */}
-            I'm <strong>Hansa</strong>, a software engineer transitioning into AI/ML and data analytics, where I combine my coding background with an interest in data-driven problem-solving. I hold a Masters degree in Computer Science from <strong>Virginia Tech</strong>, specializing in Data Analytics and AI. During my studies, I received recognition for high-impact projects in real-time AI analytics. I participated in top-tier hackathons, including HooHacks and VT Hacks, where my work focused on LLM-based tools and decision support systems.
+            I'm <strong>Hansa</strong>, a software engineer transitioning into AI/ML and data analytics, where I combine my coding background with data-driven problem-solving. I hold a Masters degree in Computer Science from <strong>Virginia Tech</strong>, specializing in Data Analytics and AI. During my studies, I received recognition for high-impact projects in real-time AI analytics. I participated in top-tier hackathons, including HooHacks and VT Hacks, where my work focused on LLM-based tools and decision support systems.
           </p>
           <p>
             {/* My career has been rooted in full-stack development, but I’ve grown passionate about ML, data analyis, and building tools that truly help people. My expertise lies in building responsive and user-friendly web interfaces, designing efficient APIs, and implementing secure and reliable back-end systems. I care about the *how* as much as the *what* — balancing technical skill with empathy, ethics, and curiosity. */}
@@ -77,7 +77,7 @@ function About() {
           </p> */}
             <p>
     I design and build intelligent systems that connect <strong>data, software, and people</strong>.
-    With a foundation in full-stack development and a growing specialization in <strong>AI/ML and data Analysis</strong>, 
+    With a foundation in full-stack development and a growing specialization in <strong>AI/ML and Data Analytics</strong>, 
     I focus on crafting scalable, real-world solutions that empower users and enhance automation.
   </p>
 
