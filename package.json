@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://hansapradhan.github.io/PortfolioWebsite",
+  "homepage": "https://hansapradhan.github.io/",
   "private": true,
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.13.5",

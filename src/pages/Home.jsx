@@ -1,7 +1,7 @@
 import devGirl from "../assets/illustrations/devGirl.json"
 import '../assets/css/Home.css';
 import Lottie from 'lottie-react';
-import { FaLinkedin, FaFileDownload, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaFileDownload, FaEnvelope, FaGitSquare, FaGithub } from 'react-icons/fa';
 
 function Home() {
   return (
@@ -30,6 +30,14 @@ function Home() {
             className="home-btn"
           >
             <FaLinkedin className="icon" /> LinkedIn
+          </a>
+          <a
+            href="https://github.com/hansapradhan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="home-btn"
+          >
+            <FaGithub className="icon" /> Github
           </a>
           <a
             href="mailto:pradhanhansa99@gmail.com"
